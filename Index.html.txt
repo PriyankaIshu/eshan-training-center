@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta name="google-site-verification" content="H_1pkp10RGp3mIi3uvsetZi848QatlY-lkzRCBBKXa8" />
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ishan  Training Center</title>
+  <meta name="google-site-verification" content="PASTE-YOUR-CODE-HERE" />
+  <title>Ishan Training Center</title>
 
   <!-- SEO FRIENDLY TAGS -->
-  <meta name="description" content="Ishan  Training Center - Best  courses, MS-CIT, Tally with GST, DTP, Typing, Beauty Parlour Courses in Ulhasnagar with 100% Job Placement.">
-  <meta name="keywords" content=" Classes Ulhasnagar, MS-CIT, Tally GST, DTP Course, Beauty Parlour Course, Typing Institute, Job Courses">
-  <meta name="author" content="Ishan  Training Center">
+  <meta name="description" content="Ishan Training Center - Best courses, MS-CIT, Tally with GST, DTP, Typing, Beauty Parlour Courses in Ulhasnagar with 100% Job Placement.">
+  <meta name="keywords" content="Ulhasnagar Classes, MS-CIT, Tally GST, DTP Course, Beauty Parlour Course, Typing Institute, Job Courses">
+  <meta name="author" content="Ishan Training Center">
 
   <!-- Schema (JSON-LD) -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "EducationalOrganization",
-    "name": "Ishan  Training Center",
+    "name": "Ishan Training Center",
     "url": "https://example.com",
     "logo": "https://example.com/logo.png",
     "address": {
@@ -227,5 +227,4 @@
     });
   </script>
 </body>
-
 </html>
