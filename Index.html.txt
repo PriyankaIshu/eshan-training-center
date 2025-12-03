@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<meta name="google-site-verification" content="H_1pkp10RGp3mIi3uvsetZi848QatlY-lkzRCBBKXa8" />
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ishan  Training Center</title>
@@ -226,4 +227,5 @@
     });
   </script>
 </body>
+
 </html>
