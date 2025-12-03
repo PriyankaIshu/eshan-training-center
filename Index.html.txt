@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eshan Computer Training Center</title>
+
+  <!-- SEO FRIENDLY TAGS -->
+  <meta name="description" content="Eshan Computer Training Center - Best computer courses, MS-CIT, Tally with GST, DTP, Typing, Beauty Parlour Courses in Ulhasnagar with 100% Job Placement.">
+  <meta name="keywords" content="Computer Classes Ulhasnagar, MS-CIT, Tally GST, DTP Course, Beauty Parlour Course, Typing Institute, Job Courses">
+  <meta name="author" content="Eshan Computer Training Center">
+
+  <!-- Schema (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "EducationalOrganization",
+    "name": "Eshan Computer Training Center",
+    "url": "https://example.com",
+    "logo": "https://example.com/logo.png",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Shop No.3, Behind Dattaprasad Vada",
+      "addressLocality": "Ulhasnagar - 3",
+      "addressRegion": "Maharashtra",
+      "postalCode": "421003",
+      "addressCountry": "IN"
+    },
+    "contactPoint": [{"@type":"ContactPoint","telephone":"+91 7066502135","contactType":"customer service"}]
+  }
+  </script>
+
+  <style>
+    :root{--primary:#0a4da2;--accent:#ffffff;--muted:#f5f8ff}
+    body { font-family: 'Segoe UI', Roboto, Arial; margin: 0; padding: 0; background: var(--muted); color:#12233b }
+    header { background: linear-gradient(90deg,var(--primary), #0b63d6); color: var(--accent); padding: 24px 16px; text-align: center; }
+    .logo-text { font-weight:700; font-size:28px; color:var(--accent); letter-spacing:0.4px }
+    nav { margin-top:8px }
+    .container { max-width:1100px; margin:18px auto; padding:0 16px }
+
+    /* Banner */
+    .banner { width:100%; height:320px; border-radius:10px; overflow:hidden; position:relative; background:#e9f2ff; display:flex; align-items:center; justify-content:center }
+    .banner img{ width:100%; height:100%; object-fit:cover; display:block }
+    .banner .overlay{ position:absolute; left:20px; top:40px; color:var(--accent); text-shadow:0 2px 8px rgba(0,0,0,0.3)}
+
+    /* Grid */
+    .grid{ display:grid; grid-template-columns: repeat(auto-fit,minmax(240px,1fr)); gap:16px }
+    .card{ background:white; border-radius:10px; padding:16px; box-shadow:0 6px 18px rgba(12,34,60,0.06)}
+
+    /* Buttons */
+    .btn{ display:inline-block; background:var(--primary); color:var(--accent); padding:10px 14px; border-radius:8px; text-decoration:none }
+
+    /* Gallery images */
+    .gallery img{ width:100%; height:160px; object-fit:cover; border-radius:8px }
+
+    /* Form */
+    form{ background:white; padding:18px; border-radius:10px; box-shadow:0 6px 18px rgba(12,34,60,0.06) }
+    input,textarea,select{ width:100%; padding:10px; margin:8px 0; border-radius:6px; border:1px solid #d7e3fb }
+
+    /* Footer */
+    footer{ background:var(--primary); color:var(--accent); padding:18px; text-align:center; margin-top:30px }
+
+    /* WhatsApp */
+    .whatsapp-btn{ position:fixed; right:18px; bottom:18px; background:#25d366; color:white; padding:14px 16px; border-radius:50px; text-decoration:none; box-shadow:0 8px 22px rgba(0,0,0,0.18) }
+
+    /* Language toggle */
+    .lang-toggle{ position:absolute; right:18px; top:20px }
+
+    /* FAQ */
+    .faq-item{ margin-bottom:10px }
+    .faq-item summary{ font-weight:600 }
+
+    @media(max-width:600px){ .banner{ height:200px } }
+  </style>
+</head>
+<body>
+  <!-- Header with Text Logo (White & Blue theme) -->
+  <header>
+    <div style="display:flex;align-items:center;justify-content:center;gap:12px;position:relative">
+      <div class="logo-text">Eshan Training Center</div>
+      <div class="lang-toggle">
+        <select id="langSelect" aria-label="Language">
+          <option value="en">English</option>
+          <option value="mr">मराठी</option>
+        </select>
+      </div>
+    </div>
+    <nav>Digital India • Skill India • Ministry of Labour & Employment</nav>
+  </header>
+
+  <!-- Banner (placeholder images) -->
+  <div class="container">
+    <div class="banner card">
+      <img src="banner-combined.jpg" alt="Students learning & computer lab" />
+      <div class="overlay">
+        <h2 style="margin:0;font-size:28px">Skill training • 100% Job Placement</h2>
+        <p style="margin-top:6px">MS-CIT • Tally with GST • DTP • Beauty Parlour • Typing</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- About Us (bilingual content added via JS toggle) -->
+  <div class="container" id="about">
+    <h2 data-en="About Us" data-mr="आमच्याबद्दल">About Us</h2>
+    <p data-en="Eshan Computer Training Center is one of the leading institutes in Ulhasnagar providing quality computer and skill development courses. We provide hands-on training and 100% job placement assistance."
+       data-mr="ईशान कॅम्प्युटर ट्रेनिंग सेंटर उल्हासनगरमधील अग्रगण्य संस्थांपैकी एक आहे. आम्ही व्यावहारिक प्रशिक्षण आणि 100% नोकरी राखीव सहाय्य पुरवतो.">Eshan Computer Training Center is one of the leading institutes in Ulhasnagar providing quality computer and skill development courses. We provide hands-on training and 100% job placement assistance.</p>
+  </div>
+
+  <!-- Courses + SEO paragraphs -->
+  <div class="container">
+    <h2 data-en="Courses" data-mr="कोर्सेस">Courses</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>MS-CIT</h3>
+        <p data-en="Comprehensive computer literacy course covering Windows, Office, and Internet." data-mr="विंडोज़, ऑफिस आणि इंटरनेट यांचा समावेश असलेला सर्वसमावेशक संगणक साक्षरता कोर्स.">Comprehensive computer literacy course covering Windows, Office, and Internet.</p>
+      </div>
+      <div class="card">
+        <h3>Tally Prime with GST</h3>
+        <p data-en="Practical accounting with Tally Prime, GST entries and returns, invoice management." data-mr="Tally Prime, GST एंट्री आणि रिटर्न, इनवॉइस व्यवस्थापन यासह व्यवहारिक लेखापरीक्षण.">Practical accounting with Tally Prime, GST entries and returns, invoice management.</p>
+      </div>
+      <div class="card">
+        <h3>DTP & Typing</h3>
+        <p data-en="Desktop publishing, Marathi & English typing classes for office readiness." data-mr="डेस्कटॉप पब्लिशिंग, मराठी व इंग्रजी टायपिंग क्लासेस ऑफीससाठी तयार करतात.">Desktop publishing, Marathi & English typing classes for office readiness.</p>
+      </div>
+      <div class="card">
+        <h3>Beauty Parlour & Skill Courses</h3>
+        <p data-en="Basic to advanced parlour training, jewellery making, mehndi and hair brooch making." data-mr="बेसिक ते अ‍ॅडव्हान्स्ड पार्लर प्रशिक्षण, दागिने बनवणे, मेहंदी आणि हेअर ब्रूच बनवणे.">Basic to advanced parlour training, jewellery making, mehndi and hair brooch making.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Fees (sample) -->
+  <div class="container">
+    <h2 data-en="Course Fees" data-mr="कोर्स फी">Course Fees</h2>
+    <div class="grid">
+      <div class="card">MS-CIT – ₹4,500</div>
+      <div class="card">DTP – ₹6,000</div>
+      <div class="card">Tally Prime – ₹7,500</div>
+      <div class="card">Advanced Excel – ₹3,500</div>
+    </div>
+  </div>
+
+  <!-- Gallery (placeholders for the photos you requested) -->
+  <div class="container">
+    <h2 data-en="Gallery" data-mr="गॅलरी">Gallery</h2>
+    <div class="grid gallery">
+      <div class="card"><img src="computer-lab.jpg" alt="Computer Lab" /></div>
+      <div class="card"><img src="students-learning.jpg" alt="Students Learning" /></div>
+      <div class="card"><img src="beauty-parlour.jpg" alt="Beauty Parlour Course" /></div>
+      <div class="card"><img src="typing-class.jpg" alt="Typing Class" /></div>
+      <div class="card"><img src="institute-front.jpg" alt="Institute Front" /></div>
+    </div>
+  </div>
+
+  <!-- Admission Form & Prospectus -->
+  <div class="container">
+    <h2 data-en="Admission / Inquiry Form" data-mr="अॅडमिशन / चौकशी फॉर्म">Admission / Inquiry Form</h2>
+    <form id="inquiryForm">
+      <input type="text" name="name" placeholder="Full Name / पूर्ण नाव" required />
+      <input type="tel" name="mobile" placeholder="Mobile Number / मोबाईल" required />
+      <input type="email" name="email" placeholder="Email (optional) / ईमेल (ऐच्छिक)" />
+      <select name="course">
+        <option value="mscit">MS-CIT</option>
+        <option value="tally">Tally Prime with GST</option>
+        <option value="dtp">DTP</option>
+        <option value="beauty">Beauty Parlour</option>
+      </select>
+      <textarea name="message" placeholder="Message / संदेश"></textarea>
+      <button type="submit" class="btn">Submit</button>
+    </form>
+
+    <p style="margin-top:12px">Download Prospectus: <a class="btn" href="prospectus.pdf" download>Download PDF Prospectus</a></p>
+  </div>
+
+  <!-- FAQ for SEO -->
+  <div class="container">
+    <h2 data-en="Frequently Asked Questions" data-mr="वारंवार विचारल्या जाणार्या प्रश्न">Frequently Asked Questions</h2>
+    <div class="card">
+      <details class="faq-item">
+        <summary>What is MS-CIT duration? / MS-CIT किती वेळेचा आहे?</summary>
+        <p>MS-CIT is usually a 3-month program depending on batch. / MS-CIT साधारणपणे 3 महिन्यांचा कार्यक्रम आहे, बॅचनुसार फरक असू शकतो.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Do you provide job placement? / तुम्ही नोकरी राखीव करता?</summary>
+        <p>Yes — 100% job placement assistance is provided for eligible candidates. / हो — पात्र उमेदवारांसाठी 100% नोकरी सहाय्य उपलब्ध आहे.</p>
+      </details>
+    </div>
+  </div>
+
+  <!-- Google Map -->
+  <div class="container">
+    <h2 data-en="Find Us" data-mr="आम्हाला शोधा">Find Us</h2>
+    <div class="card">
+      <p>Shop No.3, Behind Dattaprasad Vada, Ulhasnagar - 3</p>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d" width="100%" height="300" style="border:0;border-radius:8px;" loading="lazy"></iframe>
+    </div>
+  </div>
+
+  <!-- Contact & Footer -->
+  <footer>
+    <p>Contact: 7066502135 / 8446273686 / 8080630242</p>
+    <p>© <span id="year"></span> Eshan Training Center • All Rights Reserved</p>
+  </footer>
+
+  <a class="whatsapp-btn" href="https://wa.me/917066502135" target="_blank">WhatsApp</a>
+
+  <script>
+    // Year
+    document.getElementById('year').innerText = new Date().getFullYear();
+
+    // Language toggle (simple client-side switch)
+    const langSelect = document.getElementById('langSelect');
+    function setLang(lang){
+      document.querySelectorAll('[data-en]').forEach(el=>{
+        el.innerText = el.getAttribute('data-' + lang) || el.getAttribute('data-en');
+      });
+    }
+    langSelect.addEventListener('change', e=> setLang(e.target.value));
+    setLang('en');
+
+    // Simple form handler (placeholder) - will need server integration to send emails
+    document.getElementById('inquiryForm').addEventListener('submit', function(e){
+      e.preventDefault();
+      alert('Thank you! We received your inquiry.');
+      this.reset();
+    });
+  </script>
+</body>
+</html>
