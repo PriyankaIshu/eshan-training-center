@@ -3,19 +3,19 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Eshan Computer Training Center</title>
+  <title>Ishan  Training Center</title>
 
   <!-- SEO FRIENDLY TAGS -->
-  <meta name="description" content="Eshan Computer Training Center - Best computer courses, MS-CIT, Tally with GST, DTP, Typing, Beauty Parlour Courses in Ulhasnagar with 100% Job Placement.">
-  <meta name="keywords" content="Computer Classes Ulhasnagar, MS-CIT, Tally GST, DTP Course, Beauty Parlour Course, Typing Institute, Job Courses">
-  <meta name="author" content="Eshan Computer Training Center">
+  <meta name="description" content="Ishan  Training Center - Best  courses, MS-CIT, Tally with GST, DTP, Typing, Beauty Parlour Courses in Ulhasnagar with 100% Job Placement.">
+  <meta name="keywords" content=" Classes Ulhasnagar, MS-CIT, Tally GST, DTP Course, Beauty Parlour Course, Typing Institute, Job Courses">
+  <meta name="author" content="Ishan  Training Center">
 
   <!-- Schema (JSON-LD) -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "EducationalOrganization",
-    "name": "Eshan Computer Training Center",
+    "name": "Ishan  Training Center",
     "url": "https://example.com",
     "logo": "https://example.com/logo.png",
     "address": {
@@ -77,7 +77,7 @@
   <!-- Header with Text Logo (White & Blue theme) -->
   <header>
     <div style="display:flex;align-items:center;justify-content:center;gap:12px;position:relative">
-      <div class="logo-text">Eshan Training Center</div>
+      <div class="logo-text">Ishan Training Center</div>
       <div class="lang-toggle">
         <select id="langSelect" aria-label="Language">
           <option value="en">English</option>
@@ -91,7 +91,7 @@
   <!-- Banner (placeholder images) -->
   <div class="container">
     <div class="banner card">
-      <img src="banner-combined.jpg" alt="Students learning & computer lab" />
+      <img src="banner-combined.jpg" alt="Students learning &  lab" />
       <div class="overlay">
         <h2 style="margin:0;font-size:28px">Skill training • 100% Job Placement</h2>
         <p style="margin-top:6px">MS-CIT • Tally with GST • DTP • Beauty Parlour • Typing</p>
@@ -102,8 +102,8 @@
   <!-- About Us (bilingual content added via JS toggle) -->
   <div class="container" id="about">
     <h2 data-en="About Us" data-mr="आमच्याबद्दल">About Us</h2>
-    <p data-en="Eshan Computer Training Center is one of the leading institutes in Ulhasnagar providing quality computer and skill development courses. We provide hands-on training and 100% job placement assistance."
-       data-mr="ईशान कॅम्प्युटर ट्रेनिंग सेंटर उल्हासनगरमधील अग्रगण्य संस्थांपैकी एक आहे. आम्ही व्यावहारिक प्रशिक्षण आणि 100% नोकरी राखीव सहाय्य पुरवतो.">Eshan Computer Training Center is one of the leading institutes in Ulhasnagar providing quality computer and skill development courses. We provide hands-on training and 100% job placement assistance.</p>
+    <p data-en="Ishan  Training Center is one of the leading institutes in Ulhasnagar providing quality  and skill development courses. We provide hands-on training and 100% job placement assistance."
+       data-mr="ईशान कॅम्प्युटर ट्रेनिंग सेंटर उल्हासनगरमधील अग्रगण्य संस्थांपैकी एक आहे. आम्ही व्यावहारिक प्रशिक्षण आणि 100% नोकरी राखीव सहाय्य पुरवतो.">Ishan  Training Center is one of the leading institutes in Ulhasnagar providing quality  and skill development courses. We provide hands-on training and 100% job placement assistance.</p>
   </div>
 
   <!-- Courses + SEO paragraphs -->
@@ -112,7 +112,7 @@
     <div class="grid">
       <div class="card">
         <h3>MS-CIT</h3>
-        <p data-en="Comprehensive computer literacy course covering Windows, Office, and Internet." data-mr="विंडोज़, ऑफिस आणि इंटरनेट यांचा समावेश असलेला सर्वसमावेशक संगणक साक्षरता कोर्स.">Comprehensive computer literacy course covering Windows, Office, and Internet.</p>
+        <p data-en="Comprehensive  literacy course covering Windows, Office, and Internet." data-mr="विंडोज़, ऑफिस आणि इंटरनेट यांचा समावेश असलेला सर्वसमावेशक संगणक साक्षरता कोर्स.">Comprehensive  literacy course covering Windows, Office, and Internet.</p>
       </div>
       <div class="card">
         <h3>Tally Prime with GST</h3>
@@ -144,7 +144,7 @@
   <div class="container">
     <h2 data-en="Gallery" data-mr="गॅलरी">Gallery</h2>
     <div class="grid gallery">
-      <div class="card"><img src="computer-lab.jpg" alt="Computer Lab" /></div>
+      <div class="card"><img src="-lab.jpg" alt=" Lab" /></div>
       <div class="card"><img src="students-learning.jpg" alt="Students Learning" /></div>
       <div class="card"><img src="beauty-parlour.jpg" alt="Beauty Parlour Course" /></div>
       <div class="card"><img src="typing-class.jpg" alt="Typing Class" /></div>
@@ -199,7 +199,7 @@
   <!-- Contact & Footer -->
   <footer>
     <p>Contact: 7066502135 / 8446273686 / 8080630242</p>
-    <p>© <span id="year"></span> Eshan Training Center • All Rights Reserved</p>
+    <p>© <span id="year"></span> Ishan Training Center • All Rights Reserved</p>
   </footer>
 
   <a class="whatsapp-btn" href="https://wa.me/917066502135" target="_blank">WhatsApp</a>
