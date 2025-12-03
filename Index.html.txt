@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="google-site-verification" content="aPKop8WMp8z7rlCwef_3h9n6zMPzX-QrFEn5sYC3p1s" />" />
+  <meta name="google-site-verification" content="H_1pkp10RGp3mIi3uvsetZi848QatlY-lkzRCBBKXa8" />
   <title>Ishan Training Center</title>
 
   <!-- SEO FRIENDLY TAGS -->
@@ -228,4 +228,5 @@
   </script>
 </body>
 </html>
+
 
